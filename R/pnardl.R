@@ -1,4 +1,4 @@
-﻿#' Panel Nonlinear ARDL Estimation
+#' Panel Nonlinear ARDL Estimation
 #'
 #' Estimates a Panel Nonlinear ARDL (PNARDL) model following Shin, Yu and
 #' Greenwood-Nimmo (2014). Regressors listed in \code{asymmetric} are
