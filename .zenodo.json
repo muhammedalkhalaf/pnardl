@@ -11,7 +11,7 @@
   "access_right": "open",
   "related_identifiers": [
     {
-      "identifier": "https://cran.r-project.org/package=pnardl",
+      "identifier": "https://github.com/muhammedalkhalaf/pnardl",
       "relation": "isSupplementTo",
       "scheme": "url"
     }
