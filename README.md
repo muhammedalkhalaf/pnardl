@@ -1,5 +1,15 @@
 # pnardl
 
+> **This repository is superseded and no longer maintained.**
+> At the request of the CRAN team, this package was merged into the CRAN package
+> [ardlverse](https://cran.r-project.org/package=ardlverse). The function `pnardl()` is maintained there,
+> with corrections that are not in this repository. The code here is an older version
+> and should not be used for new work.
+>
+> ```r
+> install.packages("ardlverse")
+> ```
+
 **Panel Nonlinear ARDL Estimation**
 
 The `pnardl` R package implements the Panel Nonlinear ARDL (PNARDL) model following Shin, Yu and Greenwood-Nimmo (2014). It decomposes regressors into positive and negative partial sums to capture asymmetric long-run and short-run effects in panel data settings.
@@ -15,8 +25,9 @@ The `pnardl` R package implements the Panel Nonlinear ARDL (PNARDL) model follow
 ## Installation
 
 ```r
-# Install from CRAN (once available):
-install.packages("pnardl")
+# Old version, GitHub only (see the notice at the top of this page)
+# install.packages("remotes")
+remotes::install_github("muhammedalkhalaf/pnardl")
 ```
 
 ## Usage
@@ -42,7 +53,7 @@ summary(res)
 
 ## Reference
 
-Shin, Y., Yu, B., & Greenwood-Nimmo, M. (2014). Modelling asymmetric cointegration and dynamic multipliers in a nonlinear ARDL framework. In R. C. Sickles & W. C. Horrace (Eds.), *Festschrift in Honor of Peter Schmidt* (pp. 281–314). Springer. https://doi.org/10.1007/978-1-4899-8008-3_9
+Shin, Y., Yu, B. and Greenwood-Nimmo, M. (2014). Modelling asymmetric cointegration and dynamic multipliers in a nonlinear ARDL framework. In R. C. Sickles and W. C. Horrace (Eds.), *Festschrift in Honor of Peter Schmidt* (pp. 281–314). Springer. https://doi.org/10.1007/978-1-4899-8008-3_9
 
 ## License
 
